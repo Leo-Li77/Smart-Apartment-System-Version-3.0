@@ -1,14 +1,17 @@
 /**
  * Update (Compared to Version 2.5)
- * 1. Add the SuperDriver Class to store the methods and the arrayList "studentStore".
- * 2. The Driver Class is only used to interact with the user (to show menu and get options from user).
- * 3. Add the option 8 to delete a student from the arrayList "studentStore".
+ *  1. Add the SuperDriver Class to store the methods and the arrayList "studentStore".
+ *  2. The Driver Class is only used to interact with the user (to show menu and get options from user).
+ *  3. Add the option 8 to delete a student from the arrayList "studentStore".
 
  * Points to Note
- * 1. Check-out Application: It is necessary to check that there are successfully completed accommodation applications before processing the check-out application.
- * 2. Accommodation Transfer Application: It is necessary to check whether there are successfully completed accommodation applications and unsuccessful check-out applications.
- * 3. Item Borrowing Application: Check if the previous item borrowing application was successfully completed.
- * 4. Activity Room Borrowing Application: Check if the previous activity room borrowing application was successfully completed.
+ *  1. Check-out Application: It is necessary to check that there are successfully completed accommodation applications before processing the check-out application.
+ *  2. Accommodation Transfer Application: It is necessary to check whether there are successfully completed accommodation applications and unsuccessful check-out applications.
+ *  3. Item Borrowing Application: Check if the previous item borrowing application was successfully completed.
+ *  4. Activity Room Borrowing Application: Check if the previous activity room borrowing application was successfully completed.
+
+ * Final to Note
+ *  You can learn more details about the functions of methods and fields by reading the notations I added to the methods.
  */
 
 
