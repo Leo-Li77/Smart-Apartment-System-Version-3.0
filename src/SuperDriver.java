@@ -134,9 +134,9 @@ public class SuperDriver {
         studentStore.add(newStudent);
 
         System.out.print("""
-                \033[33m-----------------------
-                 Choose Iterm to Start
-                -----------------------
+                \033[33m-------------------------
+                 Choose Project to Start
+                -------------------------
                 1) Accommodation Application
                 2) Check-out Application
                 3) Accommodation Transfer Application
@@ -170,18 +170,18 @@ public class SuperDriver {
     // The option 2 : Start Iterm
     protected void startIterm() {
 
-        System.out.println("\033[32m\n-------------\033[0m");
-        System.out.println("\033[32m Start Iterm \033[0m");
-        System.out.println("\033[32m-------------\033[0m");
+        System.out.println("\033[32m\n---------------\033[0m");
+        System.out.println("\033[32m Start Project \033[0m");
+        System.out.println("\033[32m---------------\033[0m");
 
         System.out.print("\033[32m[Enter student ID to start iterm] \033[0m");
         String studentID = input.nextLine();
 
         System.out.print("""
                 \033[32m
-                -----------------------
-                 Choose Iterm to Start
-                -----------------------
+                -------------------------
+                 Choose Project to Start
+                -------------------------
                 1) Accommodation Application
                 2) Check-out Application
                 3) Accommodation Transfer Application
@@ -225,9 +225,9 @@ public class SuperDriver {
         }
 
         System.out.print("""
-                \033[35m------------------------
-                 Choose Iterm to Update
-                ------------------------
+                \033[35m--------------------------
+                 Choose Project to Update
+                --------------------------
                 1) Accommodation Application
                 2) Check-out Application
                 3) Accommodation Transfer Application
@@ -286,9 +286,9 @@ public class SuperDriver {
     // The option 4 : Display Your Projects
     protected void displayPersonalProject() {
 
-        System.out.println("\033[36m\n--------------------------\033[0m");
-        System.out.println("\033[36m Display Personal Project \033[0m");
-        System.out.println("\033[36m--------------------------\033[0m");
+        System.out.println("\033[36m\n---------------------------\033[0m");
+        System.out.println("\033[36m Display Personal Projects \033[0m");
+        System.out.println("\033[36m---------------------------\033[0m");
 
         System.out.print("\033[36m[Enter your studentID] \033[0m");
         String studentID = input.nextLine();
@@ -315,9 +315,9 @@ public class SuperDriver {
     // The option 5 : Display Everyone's Projects
     protected void displayAllProjects() {
 
-        System.out.println("\033[94m\n---------------------\033[0m");
-        System.out.println("\033[94m Display All Project \033[0m");
-        System.out.println("\033[94m---------------------\033[0m");
+        System.out.println("\033[94m\n----------------------\033[0m");
+        System.out.println("\033[94m Display All Projects \033[0m");
+        System.out.println("\033[94m----------------------\033[0m");
 
         if (!studentStore.isEmpty()) {
             for (int i = 0; i < studentStore.size(); i++) {

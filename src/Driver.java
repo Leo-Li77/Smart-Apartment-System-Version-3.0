@@ -44,9 +44,9 @@ public class Driver extends SuperDriver {
                  Operation Choosing
                 --------------------
                 0) Exit
-                1) Add New Student and Start Iterm
-                2) Start Iterm
-                3) Update Iterm Status
+                1) Add New Student and Start Project
+                2) Start Project
+                3) Update Project Status
                 4) Display Your Projects
                 5) Display Everyone's Projects
                 6) Accommodation Notice
