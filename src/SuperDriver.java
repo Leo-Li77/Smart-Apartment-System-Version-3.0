@@ -383,12 +383,15 @@ public class SuperDriver {
             studentID = input.nextLine();
         }
 
+        boolean flag = false;
         for (int i = 0; i < studentStore.size(); i++) {
             if (studentStore.get(i).getStudentID().equals(studentID)) {
                 studentStore.remove(i);
-            } else {
-                System.out.println("\033[35m<StudentID Not Found>\033[0m");
+                flag = true;
             }
+        }
+        if (!flag) {
+            System.out.println("\033[35m<Student Not Found!>\033[0m");
         }
 
     } // End of deleteStudent()
