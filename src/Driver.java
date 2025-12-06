@@ -12,6 +12,8 @@
 
  * Final to Note
  *  You can learn more details about the functions of methods and fields by reading the notations I added to the methods.
+
+ *  More details can be seen in README.md.
  */
 
 
