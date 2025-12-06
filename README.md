@@ -32,3 +32,6 @@
 
 ## Compatibility
 - Versions before V3.0 are fully compatible. And V3.0 optimizes the architecture of logic. Use superclass and subclass to make the driver file more clear.
+
+## Notice
+- The source codes are in the master branch.
