@@ -24,7 +24,7 @@
 5. **Option 1 :** To add a new student after you enter the information. Each information entered has validations. And when you add a student, you must start a project.
 6. **Option 2 :** To start a project for existing student by enter his/her student ID. There is validation to see whether the student is existing. You can choose an option to kick off in the submenu.
 7. **Option 3 :** To update personal project status. Also, validations. After ID entered, you will see submenu 1 to choose a project. After that, you will see submenu 2 to choose status to update to.
-8. **Option 4 :** To display your owm project list after verifying your ID. You will see a list shown, including personal information and your projects with status.
+8. **Option 4 :** To display your own project list after verifying your ID. You will see a list shown, including personal information and your projects with status.
 9. **Option 5 :**
 
 ## Compatibility
