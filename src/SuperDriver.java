@@ -32,7 +32,7 @@ public class SuperDriver {
     protected boolean judgeID(String studentID) {
         boolean flag = true;
         if (studentID.length() != 12) {
-            flag = false;
+            return false;
         }
         try {
             Long.parseLong(studentID);
